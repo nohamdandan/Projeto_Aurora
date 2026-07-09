@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-
+import areaRoutes from './routes/areaRoute.js'
 const app = express();
 
 const PORT = process.env.PORT ||
